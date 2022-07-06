@@ -573,6 +573,7 @@ body.light-theme {
 
 .skills__data {
   display: flex;
+  align-items: center;
 }
 
 .skills .bxs-badge-check {
