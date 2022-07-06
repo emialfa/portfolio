@@ -394,10 +394,9 @@ body.light-theme {
 }
 
 .home__buttons {
-  display: grid;
+  display: flex;
   justify-content: center;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  align-items: center;
 }
 
 .home__social,
@@ -469,6 +468,7 @@ body.light-theme {
 
 .button-shadow {
   box-shadow: 0px 9px 20px rgba(85, 135, 178, 0.38);
+  margin: 0px .75rem;
 }
 
 .button:hover {
@@ -478,7 +478,7 @@ body.light-theme {
 
 .button--ghost:hover {
   box-shadow:0px 0px 0px 2px var(--first-color-alt) inset;
-
+  margin: 0px .75rem;
 }
 
 .button--ghost {
