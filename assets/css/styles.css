@@ -851,7 +851,6 @@ body.light-theme {
 .footer__social {
   display: flex;
   justify-content: center;
-  column-gap: 1.2rem;
 }
 
 .footer__social-link {
@@ -861,6 +860,7 @@ body.light-theme {
   border-radius: 0.25rem;
   font-size: 1rem;
   display: inline-flex;
+  margin: 0px 0.6rem;
 }
 
 .footer__copy {
