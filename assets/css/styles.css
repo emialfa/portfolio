@@ -912,8 +912,8 @@ body.light-theme {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .skills__box {
-    column-gap: 1rem;
+  .column-left{
+    margin-right: 1rem;
   }
   .skills__name {
     font-size: var(--small-font-size);
