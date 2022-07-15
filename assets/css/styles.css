@@ -698,6 +698,10 @@ body.light-theme {
   font-size: var(--small-font-size);
 }
 
+.testimonial__container {
+  padding: 1rem;
+}
+
 /* Swiper class */
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
